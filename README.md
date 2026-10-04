@@ -68,6 +68,12 @@ The explainability module includes:
 - LORE
 
 The `lore/` directory contains the code required for the LORE analysis.
+## Key Results
+
+- **Tabular Classification:** Random Forest provided the best overall balance across classes, achieving a macro F1-score of **0.45**.
+- **Regression:** LightGBM achieved the best performance for PCIAT score prediction, with **MAE = 13.925**, **RMSE = 17.223**, and **R² = 0.277**.
+- **Time-Series Classification:** Random Shapelet Transform combined with Logistic Regression achieved the best macro F1-score (**0.567**), with an F1-score of **0.43** for the problematic-use class.
+- **Explainability:** SHAP and LORE were used to investigate both global feature relevance and local classification behavior.
 
 ## Report
 
